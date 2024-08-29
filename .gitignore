@@ -1,0 +1,4 @@
+# created by virtualenv automatically
+.venv/Lib
+config.py
+bot.py
