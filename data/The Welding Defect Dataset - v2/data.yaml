@@ -1,0 +1,7 @@
+train: data/The Welding Defect Dataset - v2/train/images
+val: data/The Welding Defect Dataset - v2/valid/images
+test: data/The Welding Defect Dataset - v2/test/images
+
+nc: 3
+names: ['bad weld', 'good weld', 'defect']
+
