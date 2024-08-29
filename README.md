@@ -9,7 +9,7 @@ This project is a demonstration application showcasing skills in machine learnin
 1. **Develop a machine learning model for welding defect detection:** Train and deploy a YOLO-based object detection model to identify and classify welding defects.
 2. **Demonstrate image processing capabilities:** Show how machine learning models can be used to annotate and analyze images of welds.
 3. **Provide an easy-to-use tool for weld quality assessment:** Create a user-friendly interface to visualize model predictions and assess welding quality.
-
+-
 1. **Разработать модель машинного обучения для обнаружения дефектов сварки:** Обучить и развернуть модель детекции объектов на основе YOLO для идентификации и классификации дефектов сварки.
 2. **Демонстрировать возможности обработки изображений:** Показать, как модели машинного обучения могут использоваться для аннотации и анализа изображений сварочных швов.
 3. **Предоставить удобный инструмент для оценки качества сварки:** Создать удобный интерфейс для визуализации предсказаний модели и оценки качества сварки.
@@ -32,30 +32,25 @@ The model was trained using a welding defect dataset available on Kaggle. The da
 ## Example Image Processing
 
 Below are examples of image processing using the YOLO model:
+Ниже приведены примеры обработки изображений с использованием модели YOLO:
 
 **Example of a bad weld:**
+
+**Пример плохого шва:**
 
 ![Bad Weld Example](visualization/sample_predictions_bad_weld.png)
 
 **Example of a good weld:**
 
-![Good Weld Example](visualization/sample_predictions_good_weld.png)
-
-Ниже приведены примеры обработки изображений с использованием модели YOLO:
-
-**Пример плохого шва:**
-
-![Пример плохого шва](visualization/sample_predictions_bad_weld.png)
-
 **Пример хорошего шва:**
 
-![Пример хорошего шва](visualization/sample_predictions_good_weld.png)
+![Good Weld Example](visualization/sample_predictions_good_weld.png)
 
 ## Results
 - **Accurate Defect Detection:** The YOLO model effectively identifies and classifies welding defects with high accuracy.
 - **Efficient Processing:** The model performs inference quickly, providing real-time feedback for weld quality assessment.
 - **User-Friendly Visualization:** The results are displayed in an intuitive format, making it easy to understand the model's predictions.
-
+-
 - **Точная детекция дефектов:** Модель YOLO эффективно идентифицирует и классифицирует дефекты сварки с высокой точностью.
 - **Эффективная обработка:** Модель выполняет инференс быстро, предоставляя обратную связь в реальном времени для оценки качества сварки.
 - **Удобная визуализация:** Результаты отображаются в интуитивно понятном формате, что упрощает понимание предсказаний модели.
